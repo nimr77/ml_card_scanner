@@ -25,6 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+
+    namespace 'com.onix.mlcardscanner.ml_card_scanner'
     compileSdkVersion 31
 
     compileOptions {
